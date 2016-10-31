@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-BuTotal = 50
+BuTotal = 50 #o que é isso?!
 
 ClasseA = 20
 ClasseB = 10
@@ -8,7 +8,7 @@ ClasseC = 5
 ClasseD = 2
 
 
-Bu = 'Bandwidth of CoS path - Total'
+Bu = 'Bandwidth in use by CoS in selected network path - Total'
 Brq = 'Bandwidth required by CoS - Request'
 MRth = 'Maximum reservation threshold of CoS'
 
@@ -22,7 +22,7 @@ Brv = (Bov + Brq)
 #	ClasseD = 20
 
 
-ClasseA = 20
+ClasseA = 20 #por que isso tá declarado duas vezes?!
 MRthi = ClasseA
 Bui = 0.1
 Brqi = 0
